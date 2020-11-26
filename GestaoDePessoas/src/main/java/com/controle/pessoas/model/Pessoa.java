@@ -21,7 +21,7 @@ public class Pessoa {
 		this.dataNascimento = dataNascimento;
 	}
 	@Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
 	private String nome;
 	private Integer idade;
